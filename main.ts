@@ -1,11 +1,9 @@
 import { ArrayService } from "./app-service";
-
-export class ArrayComponent implements ArrayService {
+class ArrayComponent implements ArrayService {
 
     constructor() {}
 
-    public arrayMultiply(myArray: number[]) : Array<Number> {
-        console.log("HEllo");
+    public arrayFindMultiples(myArray: number[]): Array<Number>{
     }
 
     public arraySeparate(myArray: any) : Array<string>{
@@ -24,8 +22,8 @@ export class ArrayComponent implements ArrayService {
        
 }
 
-let myArray: number[] = [34, 45, 60, 23, 13, 25, 70];
-let array = new ArrayComponent();
+var myArray: number[] = [34, 45, 60, 23, 13, 25, 70];
+var array = new ArrayComponent();
 
 console.log(array.arrayMultiply(myArray));
 console.log(array.arraySeparate(myArray));
