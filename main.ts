@@ -3,6 +3,7 @@ class ArrayComponent implements ArrayService {
 
     constructor() {}
 
+    //this array method
     public arrayFindMultiples(myArray: number[]): Array<Number>{
     }
 
