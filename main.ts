@@ -5,7 +5,7 @@ export class ArrayComponent implements ArrayService {
     constructor() {}
 
     public arrayMultiply(myArray: number[]) : Array<Number> {
-      
+        console.log("HEllo");
     }
 
     public arraySeparate(myArray: any) : Array<string>{
